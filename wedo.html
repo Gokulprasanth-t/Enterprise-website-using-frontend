@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlassian</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        #nav a{
+            text-decoration: none;            
+            padding: 40px;
+        }
+        #nav img{
+            height:100px;
+            width:20%;
+        }
+        .section2{
+            font-size: 3rem;
+            text-align: center;
+            padding: 50px 0px;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .responsive-image {
+            width: 100%;
+            height: auto;
+        }
+        
+        .section3{
+          background-color: rgb(253, 237, 198);
+          padding: 50px;
+        }
+        
+        .card{
+          padding: 100px 0px;
+          margin: 30px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        }
+        .card a,h5{
+          text-decoration: none;
+          color: white;
+          font-size: 2rem;
+
+        }
+        .section4{
+          padding: 100px;
+          text-align: center;
+          background-color:rgb(233, 240, 247) ;
+        }
+        footer {
+          background-color: #3b3c3c;
+          padding: 80px 250px 0 250px;
+          color:white;
+        }
+
+        .footer-links li {
+          margin-bottom: 8px;
+          list-style: none;
+        }
+
+        .footer-links a {
+          text-decoration: none;
+          color:white;
+        }
+
+        .footer-links a:hover {
+          color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <nav id="nav" style="padding:10px;" class="d-flex">
+                <img src="../img/logo.png" alt="logo">
+                <a href="index.html">About us</a>
+                <a href="#wedo.html">What we do</a>
+                <a href="investors.html">Investors</a>
+                <a href="contact.html">Contact</a>
+                <form style="padding-top:40px;">
+                    <input  type="search" placeholder="Search" >
+                    <button  type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <div class="section2">
+      <h1 style="padding: 30px;">What <span style="color: rgb(247, 133, 245);">we do</span></h1>
+      <img src="../img/18.jpeg"  class="responsive-image">
+    </div>
+
+    <section class="section3">
+      <h1>Our <span style="color: rgb(247, 133, 245);">Focus</span> at</h1>
+      <div class="row row-cols-3 row-cols-md-3">
+        <div class="col">
+          <div class="card" style="background-image: url(../img/19.jpeg);">
+            <a href="#" class="card-body">
+              <h5 class="card-title">Automotive</h5>
+            </a>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card" style="background-image: url(../img/20.jpeg);">
+            <a href="#" class="card-body">
+              <h5 class="card-title">Cleantech and Energy</h5>
+            </a>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card" style="background-image: url(../img/21.jpeg);">
+            <a href="#" class="card-body">
+              <h5 class="card-title">Retail and eCommerce</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col" >
+          <div class="card" style="background-image: url(../img/22.jpeg);">
+            <a href="#" class="card-body">
+              <h5>Travel and Transport</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background-image: url(../img/23.jpeg);">
+            <a href="#" class="card-body">
+              <h5 class="card-title">Public sector</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background-image: url(../img/24.jpeg);">
+            <a href="#" class="card-body">
+              <h5 class="card-title">Not for Profit</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="section4">
+    <h6 style="color: blue;">CAREERS</h6>
+    <h4 style="padding:10px 350px; font-size:3rem;">We can't do it alone</h4>
+    <h6 style="padding:10px 350px;">We have an ambitious road ahead, and we're looking for people to join our global team to help shape the future of Atlassian.</h6>
+    <button type="button" style="background-color: blue;border-radius: 5px; border: none;padding: 10px; width: 10%;">
+      <a href="contact.html" style="text-decoration: none;color: aliceblue;">Join Team</a>
+    </button>
+    </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h6>PRODUCTS</h6>
+          <ul class="footer-links">
+            <li><a href="#">Jira Software</a></li>
+            <li><a href="#">Jira Align</a></li>
+            <li><a href="#">Jira Service Management</a></li>
+            <li><a href="#">Confluence</a></li>
+            <li><a href="#">Trello</a></li>
+            <li><a href="#">Bitbucket</a></li>     
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6>RESOURCES</h6>
+          <ul class="footer-links">
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Purchasing & licensing</a></li>
+            <li><a href="#">Atlassian Community</a></li>
+            <li><a href="#">Knowledge base</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">My Account</a></li>     
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6>EXPAND & LEARN</h6>
+          <ul class="footer-links">
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Training & Certification</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Developer Resources</a></li>
+            <li><a href="#">Enterprise services</a></li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align: right;">@Atlassian.pic</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="
+</body>
+</html>
